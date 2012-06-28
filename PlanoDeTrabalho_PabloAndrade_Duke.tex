@@ -1,0 +1,114 @@
+\documentclass{article}
+
+\usepackage[process=auto]{pstool}
+\usepackage[brazil]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{slashbox}
+\usepackage{subfigure}
+\usepackage{multirow}
+\usepackage{fancybox}
+\usepackage{caption}
+\usepackage{color}
+\usepackage[fleqn]{amsmath}
+\title{Plano de trabalho para Doutorado Sandu?che no Exterior - Duke University/EUA}
+\usepackage{hyperref}
+
+\begin{document}
+
+\author{Pablo de Morais Andrade\\\\
+		Universidade de S?o Paulo-USP,\\
+  		S?o Paulo/SP,\\
+  		Brasil,\\\\
+  \texttt{pablo.andrade@usp.br}}
+\maketitle
+
+\begin{abstract}
+O presente plano de trabalho tem como objetivo a cadidatura do estudante de doutorado em Bioinform?tica da Universidade de S?o Paulo-USP, Pablo de Morais Andrade a uma bolsa de doutorado sandu?che no exterior a partir do programa Ci?ncia sem Fronteiras. Esse documento descreve o objetivo do programa assim como as atividades a serem desenvolvidas pelo estudante no exterior e os resultados esperados.
+\end{abstract}
+
+\section{ \label{sec:projeto} Candidato e Orientador}
+O candidato Pablo de Morais Andrade ? Bacharel em Engenharia da Computa??o pela Universidade Estadual de Campinas-Unicamp, Mestre em Ci?ncia da Computa??o pela Universidade do Missouri-Kansas City e atualmente aluno no segundo ano de doutorado em Bioinform?tica na Universidade de S?o Paulo-USP.\\
+
+%legal que voce ja morou aqui, vai facilitar muito a comunicacao
+\\
+O orientador Carlos Alberto de Bragan?a Pereira ? Professor titular da Universidade de S?o Paulo-USP, {\color{red} ... acrescentar info ...}
+
+\section{ \label{sec:duke} Grupo de trabalho na Universidade Duke}
+O grupo \textit{Research on Research} da Universidade de Duke {\color{red} ... acrescentar info ...}
+
+%a Dida pode te ajudar com referencias ao Department of Anesthesiology
+
+\section{ \label{sec:projeto} Projeto}
+
+\subsection{ \label{subsec:motivacao} Motiva??o}
+Doen?as cardiovasculares representam um grande problema de sa?de p?blica e sendo os recursos limitados, se faz necess?rio uma orienta??o na tomada de decis?es para os m?dicos a fim de fazer o melhor uso poss?vel do recursos dispon?veis.\\ 
+A cria??o de um modelo para tomada de decis?o relacionado a doen?as cardiovasculares poderia viabilizar esse direcionamento para os m?dicos al?m de possibilitar a dissemina??o do uso de tecnologia nas pol?ticas de sa?de e aprimorar a qualidade e efici?ncia da medicina carviovascular no Brasil.\\
+Pesquisas desenvolvidas para cria??o de modelos para tomadas de decis?o relacionada ? medicina s?o, na sua maioria, conduzidas dentro de um contexto cultural e econ?mico local. Por isso, se faz necess?rio um estudo a partir da an?lise de dados dispon?veis pelas institui??es Brasileiras ligados ? cardiologia.\\
+O grupo "Research on Research" da Universidade de Duke nos Estados Unidos est? come?ando um trabalho juntamente com a Sociedade Brasileira de Cardiologia na cria??o de tais modelos, e o doutorado sandu?che teria como principal foco, o trabalho conjunto na pesquisa e desenvolvimento desses modelos.
+\subsection{ \label{subsec:evidencemed} Medicina baseada em evid?ncia}
+Medicina baseada em evid?ncia {\color{red} ... acrescentar info ...}
+
+\subsection{ \label{subsec:cardiovascular} Tomadas de Decis?o para condi??es cardiovasculares no Brasil}
+O projeto a ser desenvolvido pelo estudante na Universidade de Duke tem como objetivo analisar e direcionar tomadas de decis?es relacionadas a problemas cardiovasculares - como insufici?ncia card?aca cr?nica -  no Brasil. Esse trabalho ser? realizado conjuntamente com o grupo "Research on Research" da Universidade de Duke, e ser? baseado nos bancos de dados relacionados a cardiologia dispon?veis.\\
+Um modelo para tomada de decis?o deve combinar a literatura dispon?vel, bancos de dados que representam as condi??es atuais cardiovasculares em diferentes regi?es do Brasil e a opni?o de especialistas na ?rea, al?m de possibilitar a atualiza??o do modelo a medida que mais informa??o seja disponibilizada.\\
+A fim de atingir esses objetivos, as seguintes tarefas devem ser executadas:
+\begin{itemize}
+	\item Estudo dos dados relacionados ? cardiologia atualmente existentes no Brasil e modelos que utilizam esses dados.
+	\item Cria??o de um banco de dados com toda a informa??o relacionada ? cardiologia dispon?vel no Brasil.
+	
+	%por favor mande um email para a "Clarissa Garcia Rodrigues" <cgr7@duke.edu>,  e ela vai te mandar informacoes a respeito de bancos brasileiros
+	
+	\item Estudo detalhado dos modelos atualmente utilizados em outros pa?ses para tomada de decis?o relacionadas a cardiologia.
+	\item Buscar o melhor modelo a ser utilizado especificamente para os dados de cardiologia no Brasil.
+	\item Conduzir uma sequ?ncia de testes usando os dados dispon?veis para validar o modelo escolhido, se necess?rio, rever o modelo e refazer os testes.
+	\item Discutir com especialistas na ?rea de cardiologia a validade do m?todo e seus resultados.
+	
+	%durante a conversa com o Miklos e a Dr. Li a pergunta especifica vai ficar bem mais clara, mas tem relacao entre o uso de drogas peri-operatorias e farmaco-genetica
+	
+\end{itemize}
+Uma vez decidido o modelo a ser utilizado, esse deve permitir a entrada de informa??es fornecidas por especialistas e atualiza??o do modelo a partir do dados. Dessa forma, um modelo Bayesiano ? considerado, j? que as duas etapas podem ser utilizadas no modelo da seguinte forma:
+ \begin{enumerate} 
+	\item Entrada da informa??o \textit{a priori}: o modelos ? parametrizado de acordo com a informa??es dadas pelos especialistas.
+	\item \textit{Calibra??o} do modelo: a partir da entradas dos dados a partir dos bancos de dados existentes, o modelo ? calibrado (os par?metros s?o ajustados para que o modelo se adeque aos dados).
+ \end{enumerate}
+A cria??o de tal modelo tem como objetivo final garantir que a melhor pr?tica na tomada de decis?o seja utilizada em hospitais brasileiros e que esse modelo contenha as caracter?stica locais do pa?s. Para isso, contaremos com a dissemina??o por parte de parceiros envolvidos no projeto, que est?o diretamente envolvidos com cardiologia no Brasil.\\
+O modelo resultante e sua dissemina??o deve ser trazido para 
+uma ampla discu??o envolvendo membros de hospitais de diversas ?rea do Brasil. Esse membros devem proceder ? criticar e propor mudan?as ao modelo at? que um modelo final que satisfa?a as necessidades de seus grupos seja encontrado e esse possa ser passado para os membros de seus respectivos grupos. O modelo deve apresentado na confer?ncia anual da Sociedade Brasileira de Cardiologia.\\
+
+%por favor peca pra que a Clarissa te coloque em contato com o Dr. Bacal do INCOR para que ele possa ser incluido no projeto e se torne a conexao com a SBC
+
+Apesar do projeto ser primeiramente focado apenas em problemas de cardiologia, se espera que tenhamos ao final do projeto uma metodologia que possa ser estendida a outras disciplinas e outros modelos possam ser criados para auxiliar m?dicos de outras ?rea em hospitais brasileiros.
+\subsection{ \label{subsec:modelos} Modelos}
+Os modelos a serem estudados e aplicados aos dados devem incluir:
+\begin{enumerate}
+\item ?rvores de decis?o 
+\item Redes Bayesianas 
+\item Campos aleat?rios de Markov
+\item Modelo oculto de Markov
+\end{enumerate}
+Esse modelos t?m como vantagem, o fato de apresentarem as duas caracter?sticas desejadas: possibilidade de entradas de informa??es dos especialitas \textit{a priori} e possibilidade de atualiza??o do modelo a partir de \textit{aprendizado} utilizando dos dados dispon?veis e novos dados que podem ser entrados no sistema.\\
+{\color{red} ... acrescentar info ...}\\
+Usando esse modelo ? poss?vel fazer avalia??o da qualidade dos servi?os prestados, an?lise custo-benef?cio na gest?o de recursos p?blicos al?m de pesquisa de ader?ncia ?s diretrizes da Sociedade Brasileira de Cardiologia em hospitais da rede p?blica e privada.
+
+\subsection{ \label{sec:resultados} Resultados Esperados}
+Ao final do programa devem-se ter modelos de an?lises de decis?o relacionados a problemas cardiovasculares, para auxiliar m?dicos em hospitais brasileiros. Al?m disso deve ser criada uma metodologia de pesquisa, desde as etapas iniciais at? a aplica??o desses m?todos, para poss?vel reprodu??o da pesquisa e projeto em outras ?reas da medicina brasileira.
+
+\subsection{ \label{sec:cronograma} Cronograma}
+O cronograma do doutorado sadu?che inclue 12 meses na Universidade de Duke, divididos da seguinte forma:\\
+{\color{red} ... acrescentar info ...}
+
+%isso daqui nos vamos decidir durante a reuniao. uma vez que voce tenha um manuscrito mais completo dai eu reviso com voce de novo
+
+\clearpage
+
+\begin{thebibliography}{9}
+\bibitem{bocchi}
+Bocchi EA, Marcondes-Braga FG, Bacal F, Ferraz AS, Albuquerque D, Rodrigues D, et al. Sociedade Brasileira de Cardiologia. Atualiza??o da Diretriz Brasileira de Insufici?ncia Card?aca Cr?nica - 2012. Arq Bras Cardiol 2012: 98(1 supl. 1): 1-33
+\bibitem{montera}
+Montera MW, Almeida RA, Tinoco EM, Rocha RM, Moura LZ, R?a-Neto A, et al.
+Sociedade Brasileira de Cardiologia. II Diretriz Brasileira de Insufici?ncia Card?aca Aguda.
+Arq Bras Cardiol.2009;93(3 supl.3):1-65
+\end{thebibliography}
+
+\end{document}
